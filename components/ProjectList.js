@@ -9,7 +9,7 @@ const projectList = [
     },{
         key: 2,
         projectTitle: "OpenEXC",
-        img_src: "../src/assets/openexc.png", 
+        img_src: '../src/assets/openexc.png', 
         projectContext: "Full Fledged Cryptocurrency Exchange built using Hardhat NodeJS etc. on testnet as a project. Project includes candle stick graphs, realtime token price data and features required by a trader in general.",
         gitHub: "https://github.com/vaibhavdekatey/Crypto-Exchange-Project/",
         link: "https://openexc.netlify.app"

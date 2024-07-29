@@ -6,7 +6,7 @@ function ProjectCard(props) {
     return(
         <div className="col" >
             <div className="card shadow-sm">
-                <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={props.image} role="img" preserveAspectRatio="xMidYMid slice" focusable="false" />        
+                <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={props.img_src} role="img" preserveAspectRatio="xMidYMid slice" focusable="false" />        
                 <div className="card-body">
                 <p className="yr">{props.title}</p>
                 <p className="card-text">{props.context}</p>

@@ -12,7 +12,7 @@ function Project(){
             <ProjectCard 
                 key = {pro.key}
                 title = {pro.projectTitle} 
-                image = {pro.img_src}
+                img_src = {pro.img_src}
                 context = {pro.projectContext}
                 gitLink = {pro.gitHub}
                 link = {pro.link}
