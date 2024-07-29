@@ -1,0 +1,305 @@
+body{
+  background-color: rgb(1, 16, 31);
+
+}
+
+.hello{
+  margin: 20vh 12% 20vh 12%;
+  text-align: left;
+}
+
+h1{
+  color: rgba(231, 231, 231, 0.863);
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+}
+
+h1.second{
+  color: rgba(240, 248, 255, 0.5);
+}
+
+h6{
+  color: aquamarine;
+  font-family: 'Noto Sans Mono', Noto sans mono, sans-serif;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+
+.lead{
+  color: rgba(185, 185, 185, 0.705);
+  font-family: 'Outfit', sans-serif;
+  font-size: large;
+  font-weight: 100;
+}
+
+.btn{
+  background-color: rgb(1, 16, 31);
+  border-color: aquamarine;
+  color: aquamarine;
+  font-family: 'Noto Sans Mono', sans-serif;
+}
+
+.btn:hover{
+  background-color: #09302e;
+  color: aquamarine ;
+  border-color: aquamarine;
+}
+
+.btn-outline-secondary{
+  margin-top: 10px;
+  font-size: medium;
+}
+
+.logo{
+  margin: 18px 10px 10px 25px ;
+  width: 50px;
+}
+
+.navbar-toggler{
+  border-color: transparent;
+  margin: 10px 10px 10px 10px;
+}
+
+.navbar-nav{
+  text-align: right;
+  font-family: 'Noto Sans Mono', sans-serif;
+  font-size: small;
+}
+
+.nav-link{
+  color: aliceblue;
+  margin-right: 10px;
+}
+
+.nav-link:hover{
+  color: aquamarine;
+}
+
+.btn-outline-success{
+  margin: 1px 3px 0px 5px;
+  font-size: small;
+}
+
+.hero{
+  margin: 25vh 13% 20vh 13%;
+  text-align: left;
+}
+
+.hero img{
+  width: 300px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  border-radius: 5%;
+  outline: aquamarine;
+}
+
+.hero img:hover{
+  -webkit-filter: grayscale(0);
+  filter:grayscale(0);
+  border-radius: 5%;
+  outline-offset: 10px;
+  outline: solid aquamarine;
+}
+
+.highlights{
+  display: inline-block;
+  color: aquamarine;
+  text-decoration: none;
+
+}
+
+.highlights:hover{
+  text-decoration: underline solid aquamarine;
+  color: aquamarine;
+
+}
+
+.hobbies{
+  columns: 2;
+  width: 80%;
+  color: aquamarine;
+
+}
+
+.hero h1:after{
+  background-color: aquamarine;
+  display: block;
+  width: 10%;
+  height: 2px;
+  content: "";
+  position: relative;
+  top: 50%;
+  z-index: -1;
+
+}
+
+.exp{
+  margin: 20% 13% 10% 13%;
+  text-align: left;
+}
+
+.exp h1{
+  padding: 0%;
+}
+
+.exp h1:after{
+  background-color: aquamarine;
+  display: block;
+  width: 10%;
+  height: 2px;
+  content: "";
+  top: 50%;
+  z-index: -1;
+
+}
+
+.exp h2{
+  margin-top: 10px;
+  color: aquamarine;
+  font-family: 'Noto Sans Mono', sans-serif;
+  font-size: larger;
+  font-weight: 100;
+
+}
+
+.exp .col-lg{
+  padding-right: 13%;
+}
+
+h2.pos{
+  color: rgba(231, 231, 231, 0.863);
+}
+
+.yr{
+  color: rgba(231, 231, 231, 0.863);
+  font-family: 'Noto Sans Mono', sans-serif;
+  font-size: medium;
+  font-weight: 100;
+  
+}
+
+.resp{
+  color: rgba(151, 151, 151, 0.863);
+  font-family: 'Noto Sans Mono', sans-serif;
+  font-size: medium;
+  font-weight: 100;
+
+}
+
+.resp li{
+  margin-bottom: 3%;
+}
+
+.container h1:after{
+  background-color: aquamarine;
+  display: block;
+  width: 10%;
+  height: 2px;
+  content: "";
+  position: relative;
+  top: 0%;
+  z-index: -1;
+
+}
+.container{
+  padding-left: 13%;
+  padding-right: auto;
+  margin-bottom: 10vh;
+
+}
+
+.container .row{
+  padding: none;
+}
+
+.card{
+  background-color: #172a45;
+  color: rgba(231, 231, 231, 0.863);
+  border-radius: 3%;
+}
+
+.card-img-top{
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.col {
+  padding-right: 2%;
+  padding-bottom: 2%
+}
+
+.col img{
+  object-fit: cover;
+}
+
+.col button{
+  background:none;
+  border: none;
+}
+
+.col button img{
+  width: 20px;
+  margin-top: none;
+  margin-bottom: 3px;
+}
+
+.getin{
+  margin: 50vh 11% 23vh 11%;
+  text-align: center;
+}
+
+.getin .lead{
+  margin-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.getin button{
+  font-size:90%;
+  padding: 10px 20px 10px 20px;
+}
+
+.cred{
+  margin-bottom :2%;
+
+}
+
+footer{
+  text-align: center;
+  color: aquamarine;
+  text-decoration: none;
+  font-size: small;
+  font-weight: 100;
+}
+
+.foot{
+  color: aquamarine;
+  text-decoration: none;
+  font-family: 'Noto Sans Mono', sans-serif;
+  
+}
+
+.foot:hover{
+  text-decoration: underline solid aquamarine;
+  color: azure;
+  
+}
+
+.conn{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.conn img{
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
