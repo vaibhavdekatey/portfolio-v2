@@ -1,8 +1,16 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portfolio V2
 
-Currently, two official plugins are available:
+A single page Portfolio using HTML, CSS, Bootstrap, and React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployment
+
+npm run dev
+
+## Snapshot 
+
+![Screenshot 2023-12-16 212400](https://github.com/vaibhavdekatey/PortfolioV1/assets/57607581/229097a4-a93a-45d5-9e03-3b24c2d387be)
+
+## Live at
+
+[vaibhavdek.netlify.com](https://vaibhavdek.vercel.app)
