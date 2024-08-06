@@ -13,4 +13,4 @@ npm run dev
 
 ## Live at
 
-[vaibhavdek.netlify.com](https://vaibhavdek.vercel.app)
+[vaibhavdek.vercel.app](https://vaibhavdek.vercel.app)
